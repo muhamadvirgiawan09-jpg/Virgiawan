@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Virgiawan — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#beranda" class="nav-logo">Iwan<span>.</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#beranda" class="nav-link active">Beranda</a>
+                <a href="#tentang" class="nav-link">Tentang Saya</a>
+                <a href="#cv" class="nav-link">CV</a>
+                <a href="#karya" class="nav-link">Hasil Karya</a>
+                <a href="#galeri" class="nav-link">Galeri</a>
+                <a href="#sosmed" class="nav-link">Media Sosial</a>
+                <a href="#kontak" class="nav-link">Kontak</a>
+                <a href="#testimoni" class="nav-link">Testimoni</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= BERANDA ================= -->
+    <section id="beranda" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-photo-wrapper reveal fade-up">
+                    <img src="images/profile.jpg" alt="Foto Muhamad Virgiawan" class="hero-photo" onerror="this.style.display='none'">
+                    <div class="photo-ring"></div>
+                </div>
+                <div class="hero-text reveal fade-up delay-1">
+                    <span class="hero-badge">Student • Photography Enthusiast</span>
+                    <h1 class="hero-name">Muhamad <span>Virgiawan</span></h1>
+                    <p class="hero-nickname">Panggil saya <strong>Iwan</strong></p>
+                    <div class="hero-info">
+                        <span class="info-chip">📚 X-MP 2 • MPLB</span>
+                        <span class="info-chip">🏫 SMKN 42 Jakarta</span>
+                    </div>
+                    <p class="hero-quote">"Belajar, berkarya, dan melihat dunia dari sudut pandang yang berbeda."</p>
+                    <div class="hero-buttons">
+                        <a href="#tentang" class="btn btn-primary">Tentang Saya</a>
+                        <a href="#karya" class="btn btn-outline">Lihat Karya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TENTANG SAYA ================= -->
+    <section id="tentang" class="section">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Tentang</span>
+                <h2 class="section-title">Tentang <span>Saya</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass reveal fade-up">
+                    <div class="about-card-header">
+                        <span class="about-icon">👤</span>
+                        <h3>Profil Singkat</h3>
+                    </div>
+                    <p class="about-text">
+                        Saya adalah siswa SMK jurusan <strong>MPLB</strong> yang tertarik pada teknologi, fotografi, game, dan anime.
+                        Saat ini saya sedang mempelajari <strong>fotografi</strong>, <strong>bahasa Jepang</strong>, dan <strong>bahasa isyarat</strong>.
+                    </p>
+                </div>
+                <div class="about-card glass reveal fade-up delay-1">
+                    <div class="about-card-header">
+                        <span class="about-icon">📷</span>
+                        <h3>Fotografi</h3>
+                    </div>
+                    <p class="about-text italic-quote">
+                        "Fotografi bagi saya adalah cara untuk belajar melihat hal-hal sederhana dari sudut pandang yang berbeda."
+                    </p>
+                    <p class="about-note">
+                        Fotografi masih merupakan hobi yang sedang saya kembangkan, bukan pekerjaan profesional.
+                    </p>
+                </div>
+                <div class="about-card glass reveal fade-up delay-2">
+                    <div class="about-card-header">
+                        <span class="about-icon">🎯</span>
+                        <h3>Minat Saya</h3>
+                    </div>
+                    <div class="tag-container">
+                        <span class="tag">Teknologi</span>
+                        <span class="tag">Fotografi</span>
+                        <span class="tag">Game</span>
+                        <span class="tag">Anime</span>
+                        <span class="tag">Bahasa Jepang</span>
+                        <span class="tag">Bahasa Isyarat</span>
+                    </div>
+                </div>
+                <div class="about-card glass reveal fade-up delay-3">
+                    <div class="about-card-header">
+                        <span class="about-icon">🎮</span>
+                        <h3>Hobi</h3>
+                    </div>
+                    <div class="hobby-list">
+                        <div class="hobby-item">
+                            <span class="hobby-emoji">🧩</span>
+                            <span class="hobby-name">Bermain Rubik</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-emoji">📷</span>
+                            <span class="hobby-name">Fotografi</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-emoji">🎮</span>
+                            <span class="hobby-name">Bermain Game</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-emoji">📺</span>
+                            <span class="hobby-name">Menonton Anime</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CV ================= -->
+    <section id="cv" class="section section-alt">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Curriculum Vitae</span>
+                <h2 class="section-title">Riwayat <span>Singkat</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="cv-grid">
+                <div class="cv-card glass reveal fade-up">
+                    <div class="cv-card-header">
+                        <span class="cv-icon">🎓</span>
+                        <h3>Pendidikan</h3>
+                    </div>
+                    <div class="cv-item">
+                        <h4>SMKN 42 Jakarta</h4>
+                        <p class="cv-sub">Jurusan Manajemen Perkantoran dan Layanan Bisnis (MPLB)</p>
+                        <p class="cv-sub">Kelas X-MP 2</p>
+                        <span class="cv-badge">Siswa Aktif</span>
+                    </div>
+                </div>
+                <div class="cv-card glass reveal fade-up delay-1">
+                    <div class="cv-card-header">
+                        <span class="cv-icon">🚩</span>
+                        <h3>Aktivitas</h3>
+                    </div>
+                    <div class="cv-item">
+                        <h4>Paskibra</h4>
+                        <ul class="cv-list">
+                            <li>Mengikuti kegiatan Paskibra</li>
+                            <li>Mengikuti Masa Orientasi Paskibra (MOP)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cv-card glass reveal fade-up delay-2">
+                    <div class="cv-card-header">
+                        <span class="cv-icon">🏆</span>
+                        <h3>Prestasi</h3>
+                    </div>
+                    <div class="cv-item">
+                        <p class="cv-prestasi">Peringkat <strong>7</strong> hasil Tes Kemampuan Akademik (TKA) tingkat angkatan.</p>
+                    </div>
+                </div>
+                <div class="cv-card glass reveal fade-up delay-3">
+                    <div class="cv-card-header">
+                        <span class="cv-icon">📜</span>
+                        <h3>Sertifikat</h3>
+                    </div>
+                    <div class="cv-item">
+                        <ul class="cv-list">
+                            <li>Sertifikat Tes Kemampuan Akademik (TKA)</li>
+                            <li>Sertifikat Masa Orientasi Paskibra (MOP)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cv-card glass reveal fade-up delay-4 cv-card-full">
+                    <div class="cv-card-header">
+                        <span class="cv-icon">📖</span>
+                        <h3>Sedang Dipelajari</h3>
+                    </div>
+                    <div class="tag-container">
+                        <span class="tag tag-green">📷 Fotografi</span>
+                        <span class="tag tag-green">🇯🇵 Bahasa Jepang</span>
+                        <span class="tag tag-green">🤟 Bahasa Isyarat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HASIL KARYA ================= -->
+    <section id="karya" class="section">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Hasil Karya <span>Fotografi</span></h2>
+                <div class="section-line"></div>
+                <p class="section-desc reveal fade-up delay-1">
+                    Beberapa foto yang saya ambil sebagai bagian dari proses belajar dan mengembangkan minat saya dalam fotografi.
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item glass reveal fade-up" data-index="0">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya1.jpg" alt="Foto gedung sekolah dengan perspektif dari bawah" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+1'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Perspektif Bangunan</h4>
+                        <p>Gedung sekolah dari sudut pandang bawah</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up delay-1" data-index="1">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya2.jpg" alt="Foto lingkungan sekolah" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+2'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Lingkungan Sekolah</h4>
+                        <p>Suasana keseharian di lingkungan sekolah</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up delay-2" data-index="2">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya3.jpg" alt="Foto candid" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+3'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Momen Candid</h4>
+                        <p>Momen spontan yang tertangkap kamera</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up delay-3" data-index="3">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya4.jpg" alt="Foto alam hutan" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+4'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Alam dan Hutan</h4>
+                        <p>Keheningan alam yang menenangkan</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up" data-index="4">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya5.jpg" alt="Foto sunset" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+5'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Senja</h4>
+                        <p>Langit jingga di penghujung hari</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up delay-1" data-index="5">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya6.jpg" alt="Foto tanaman dan siluet" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+6'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Tanaman & Siluet</h4>
+                        <p>Bentuk siluet yang dramatis</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up delay-2" data-index="6">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya7.jpg" alt="Foto bunga dengan tetesan air" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+7'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Bunga & Tetesan Air</h4>
+                        <p>Detail kecil yang sering terlewat</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass reveal fade-up delay-3" data-index="7">
+                    <div class="portfolio-img-wrapper">
+                        <img src="images/karya8.jpg" alt="Foto awan dan landscape" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Karya+8'">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Awan & Landscape</h4>
+                        <p>Bentang langit yang luas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= GALERI FOTO (VIDEO) ================= -->
+    <section id="galeri" class="section section-alt">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Galeri</span>
+                <h2 class="section-title">Galeri <span>Foto</span></h2>
+                <div class="section-line"></div>
+                <p class="section-desc reveal fade-up delay-1">
+                    Kumpulan foto-foto yang saya ambil. Klik foto untuk memperbesar.
+                </p>
+            </div>
+
+            <!-- Masonry Gallery -->
+            <div class="masonry-gallery" id="masonryGallery">
+                <div class="masonry-item glass reveal fade-up" data-index="0">
+                    <img src="images/karya1.jpg" alt="Foto gedung perspektif bawah" loading="lazy" onerror="this.src='https://via.placeholder.com/600x800/1a2a1a/4ade80?text=Galeri+1'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up delay-1" data-index="1">
+                    <img src="images/karya2.jpg" alt="Foto lingkungan sekolah" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/1a2a1a/4ade80?text=Galeri+2'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up delay-2" data-index="2">
+                    <img src="images/karya3.jpg" alt="Foto candid" loading="lazy" onerror="this.src='https://via.placeholder.com/600x500/1a2a1a/4ade80?text=Galeri+3'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up" data-index="3">
+                    <img src="images/karya4.jpg" alt="Foto alam hutan" loading="lazy" onerror="this.src='https://via.placeholder.com/600x700/1a2a1a/4ade80?text=Galeri+4'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up delay-1" data-index="4">
+                    <img src="images/karya5.jpg" alt="Foto sunset" loading="lazy" onerror="this.src='https://via.placeholder.com/600x450/1a2a1a/4ade80?text=Galeri+5'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up delay-2" data-index="5">
+                    <img src="images/karya6.jpg" alt="Foto tanaman siluet" loading="lazy" onerror="this.src='https://via.placeholder.com/600x600/1a2a1a/4ade80?text=Galeri+6'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up delay-3" data-index="6">
+                    <img src="images/karya7.jpg" alt="Foto bunga tetesan air" loading="lazy" onerror="this.src='https://via.placeholder.com/600x750/1a2a1a/4ade80?text=Galeri+7'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+                <div class="masonry-item glass reveal fade-up delay-1" data-index="7">
+                    <img src="images/karya8.jpg" alt="Foto awan landscape" loading="lazy" onerror="this.src='https://via.placeholder.com/600x550/1a2a1a/4ade80?text=Galeri+8'">
+                    <div class="masonry-overlay"><span>🔍 Lihat</span></div>
+                </div>
+            </div>
+
+            <!-- Video Placeholder -->
+            <div class="video-placeholder glass reveal fade-up">
+                <div class="video-icon">🎬</div>
+                <h3>Bagian Video</h3>
+                <p>"Video akan ditambahkan pada pembaruan berikutnya."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LINK MEDIA SOSIAL ================= -->
+    <section id="sosmed" class="section">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Temukan Saya</span>
+                <h2 class="section-title">Media <span>Sosial</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="social-grid">
+                <a href="https://www.instagram.com/muhamad.virgiawan.12/" target="_blank" rel="noopener noreferrer" class="social-card glass reveal fade-up">
+                    <div class="social-icon instagram-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>@muhamad.virgiawan.12</p>
+                    <span class="social-link-text">Buka Profil →</span>
+                </a>
+                <a href="https://youtube.com/@m.virgiawan12" target="_blank" rel="noopener noreferrer" class="social-card glass reveal fade-up delay-1">
+                    <div class="social-icon youtube-icon">▶️</div>
+                    <h3>YouTube</h3>
+                    <p>@m.virgiawan12</p>
+                    <span class="social-link-text">Buka Channel →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= KONTAK ================= -->
+    <section id="kontak" class="section section-alt">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Kontak</span>
+                <h2 class="section-title">Hubungi <span>Saya</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-card glass reveal fade-up">
+                <div class="contact-icon">💬</div>
+                <p class="contact-text">Untuk menghubungi saya, silakan melalui Instagram.</p>
+                <a href="https://www.instagram.com/muhamad.virgiawan.12/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">Hubungi melalui Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TESTIMONI ================= -->
+    <section id="testimoni" class="section">
+        <div class="section-container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Testimoni</span>
+                <h2 class="section-title">Kata <span>Mereka</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="testimoni-placeholder glass reveal fade-up">
+                <div class="testimoni-icon">💬</div>
+                <p class="testimoni-text">
+                    "Testimoni dari teman, keluarga, atau orang yang melihat karya saya akan ditambahkan seiring berkembangnya portfolio saya."
+                </p>
+                <div class="testimoni-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Muhamad Virgiawan</h3>
+                <p>Student • MPLB • Photography Enthusiast</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/muhamad.virgiawan.12/" target="_blank" rel="noopener noreferrer" class="footer-social-link">Instagram</a>
+                <span class="footer-separator">•</span>
+                <a href="https://youtube.com/@m.virgiawan12" target="_blank" rel="noopener noreferrer" class="footer-social-link">YouTube</a>
+            </div>
+            <p class="footer-copy">© 2026 Muhamad Virgiawan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ================= LIGHTBOX ================= -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">✕</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Foto sebelumnya">‹</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Foto berikutnya">›</button>
+        <div class="lightbox-content">
+            <img src="" alt="Lightbox Image" id="lightboxImg">
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
